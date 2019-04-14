@@ -6,12 +6,4 @@ import { makeColorStyle } from './button-styles';
 const button = makeButton('hello');
 button.style = makeColorStyle('orange');
 document.body.appendChild(button);
-document.body.appendChild(footer)
-
-console.log(
-  nav(),
-  top,
-  bottom,
-  makeButton('button'),
-  makeColorStyle('orange')
-);
+document.body.appendChild(footer);
